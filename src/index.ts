@@ -1,6 +1,6 @@
 // @ts-ignore
 import { UserConfig, PluginOption } from "vite"
-import { OutputChunk, OutputAsset, OutputOptions } from "rollup"
+import type { OutputChunk, OutputAsset, OutputOptions } from "rollup"
 import micromatch from "micromatch"
 
 export type Config = {
